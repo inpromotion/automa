@@ -6,98 +6,98 @@ Automa - это low-code/no-code расширение для браузера, �
 🔲 [FireFox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/automa/)
 
 ## Быстрый Старт (Quick Start)
-- Запись действий (Recording Actions)
-- Начать запись с определенного блока в рабочем процессе (Start Recording From a Specific Block in Workflow)
-- Создание рабочего процесса вручную (Manually)
+- **Запись действий** (Recording Actions)
+- **Начать запись с определенного блока в рабочем процессе** (Start Recording From a Specific Block in Workflow)
+- **Создание рабочего процесса вручную** (Manually)
 
 ## Рабочий процесс (workflow)
-- Обзор (Overview)
-- Запуск Рабочего Процесса (Workflow)
-- Блоки (Blocks)
-- Совместное Использование (Sharing)
-- Глобальная информация (global data)
-- Таблица (table)
-- Переменные (variables)
-- Таблица или переменная
-- Параметры (parameters)
-- Настройки (settings)
-- Режим отладки (debug mode)
-- Селекторы элментов (element selector)
-- Выражения (expressions)
-- Циклы (looping)
-- Режим теста (testing mode)
+- **Обзор** (Overview)
+- **Запуск рабочего процесса** (Workflow)
+- **Блоки** (Blocks)
+- **Совместное использование** (Sharing a Workflow)
+- **Глобальная информация** (Global Data)
+- **Таблица** (Table)
+- **Переменные** (Variables)
+- **Таблица или переменная** (Table or Variable)
+- **Параметры** (Parameters)
+- **Настройки** (Settings)
+- **Режим отладки** (Debug Mode)
+- **Селекторы элментов** (Element Selector)
+- **Выражения** (Expressions)
+- **Циклы** (Looping)
+- **Режим теста** (Testing Mode)
 
-## Блоки
-- Общие (overview)
-  - Блок триггера (trigger block)
-  - ИИ рабочий процесс (AI workflow)
-  - Выполнить блок рабочего процесса (execute workflow block)
-  - Блок задержки (delay block)
-  - Блок экспорта данных (export data block)
-  - Блок HTTP-запроса (HTTP request block)
-  - Блок группы блоков (blocks group block)
-  - Блок буфера обмена (clipboard block)
-  - Блок ожидания соединения (wait connections block)
-  - Блок уведомлений (notification block)
-  - Блок состояния рабочего процесса (workflow state block)
-  - Блок параметров промпта (parameter prompt block)
-- Браузер (browser)
-  - active tab block
-  - new tab block
-  - switch tab block
-  - new window block
-  - proxy block
-  - go back block
-  - go forward block
-  - close tab/window block
-  - take screenshot block
-  - browser event block
-  - handle dialog block
-  - handle download block
-  - reload tab block
-  - get tab url block
-  - cookie block
-- Веб-взаимодействия (web interaction)
-  - click element block
-  - get text block
-  - scroll element block
-  - link block
-  - attribute value block
-  - forms block
-  - javascript code block
-  - trigger event block
-  - switch frame block
-  - upload file block
-  - hover element block
-  - save assets block
-  - press key block
-  - create element block
-- Поток управления (control flow)
-  - repeat task block
-  - conditions block
-  - element exists block
-  - while loop block
-  - loop data block
-  - loop elements block
-  - loop breakpoint block
-- Онлайн сервисы (online services)
-  - google sheets block
-  - google sheets gdrive block
-  - google drive block
-- Данные (data)
-  - insert data block
-  - delete data block
-  - get log data block
-  - slice variable block
-  - increase variable block
-  - regex variable block
-  - data mapping block
-  - sort data block
-## Референс (reference)
-- Хранилище (storage)
-- Пакеты (packages)
-- Конструктор условий (condition builder)
-- Распространенные ошибки рабочего процесса (workflow common errors)
-- Контекст выполнения JavaScript (javascript execution context)
+## Блоки (Blocks)
+- **Общие** (Overview)
+  - **Блок триггера** (Trigger Block)
+  - **ИИ рабочий процесс** (AI Workflow)
+  - **Выполнить блок рабочего процесса** (Execute Workflow Block)
+  - **Блок задержки** (Delay Block)
+  - **Блок экспорта данных** (Export Data Block)
+  - **Блок HTTP-запроса** (HTTP Request Block)
+  - **Блок группы блоков** (Blocks Group Block)
+  - **Блок буфера обмена** (Clipboard Block)
+  - **Блок ожидания соединения** (Wait Connections Block)
+  - **Блок уведомлений** (Notification Block)
+  - **Блок состояния рабочего процесса** (Workflow State Block)
+  - **Блок параметров промпта** (Parameter Prompt Block)
+- **Браузер** (Browser)
+  - **Блок активной вкладки** (Active Tab Block)
+  - **Блок новой вкладки** (New Tab Block)
+  - **Блок переключения вкладки** (Switch Tab Block)
+  - **Блок нового окна** (New Window Block)
+  - **Блок прокси** (Proxy Block)
+  - **Блок "назад"** (Go Back Block)
+  - **Блок "вперед"** (Go Forward Block)
+  - **Блок закрытия вкладки/окна** (Close Tab/Window Block)
+  - **Блок создания скриншотов** (Take Screenshot Block)
+  - **Блок событий браузера** (Browser Event Block)
+  - **Блок ручного диалога** (Handle Dialog Block)
+  - **Блок ручного скачивания** (Handle Download Block)
+  - **Блок перезагрузки вкладки** (Reload Tab Block)
+  - **Блок получения URL вкладки** (Get Tab URL Block)
+  - **Блок куки** (Cookie Block)
+- **Веб-взаимодействия** (Web Interaction)
+  - **Блок клика по элементу** (Click Element Block)
+  - **Блок получения текста** (Get Text Block)
+  - **Блок прокрутки элемента** (Scroll Element Block)
+  - **Блок ссылки** (Link Block)
+  - **Блок значения атрибута** (Attribute Value Block)
+  - **Блок форм** (Forms Block)
+  - **Блок JavaScripr кода** (JavaScript Code Block)
+  - **Блок событий триггера** (Trigger Event Block)
+  - **Блок переключателя фраейма** (Switch Frame Block)
+  - **Блок загрузки файла** (Upload File Block)
+  - **Блок наведения на элемент** (Hover Element Block)
+  - **Блок сохранения ассетов** (Save Assets Block)
+  - **Блок нажатия на кнопки** (Press Key Block)
+  - **Блок создания элемента** (Create Element Block)
+- **Поток управления** (Control Flow)
+  - **Блок повторения задачи** (Repeat Task Block)
+  - **Блок условий** (Conditions Block)
+  - **Блок существования элемента** (Element Exists Block)
+  - **Блок цикла while** (While Loop Block)
+  - **Блок цикла данных** (Loop Data Block)
+  - **Блок элементов цикла** (Loop Elements Block)
+  - **Блок остановки цикла** (Loop Breakpoint Block)
+- **Онлайн сервисы** (Online Services)
+  - **Блок Google Таблиц** (Google Sheets block)
+  - **Блок GDrive Таблиц** [Ggoogle Sheets (GDrive) Block]
+  - **Блок Google Диска** (Google Drive Block)
+- **Данные** (Data)
+  - **Блок вствки данных** (Insert Data Block)
+  - **Блок удаления данных** (Delete Data Block)
+  - **Получени данных логов** (Get Log Data Block)
+  - **Блок среза переменных** (Slice Variable Block)
+  - **Блок увеличения переменной** (Increase Variable Block)
+  - **Блок регулярных выражений** (Regex Variable Block)
+  - **Блок карты данных** (Data Mapping Block)
+  - **Блок сортировки данных** (Sort Data Block)
+## Референс (Reference)
+- **Хранилище** (Storage)
+- **Пакеты** (Packages)
+- **Конструктор условий** (Condition Builder)
+- **Распространенные ошибки рабочего процесса** (Workflow Common Errors)
+- **Контекст выполнения JavaScript** (JavaScript Execution Context)
 ## Интеграции (integrations)
-- Google Диск (Google Drive)
+- **Google Диск** (Google Drive)
