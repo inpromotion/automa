@@ -1,2 +1,2 @@
-# automa
-Документация на русском языке для браузерного расширения Automa
+![Логотип Automa c официального репозитория]([Путь к изображению](https://github.com/AutomaApp/automa/raw/main/src/assets/images/icon-128.png))
+# Automa
