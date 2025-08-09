@@ -5,7 +5,7 @@ Automa - это low-code/no-code расширение для браузера, �
 
 🔲 [FireFox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/automa/)
 
-## 1️⃣ Быстрый Старт (Quick Start)
+## 1️⃣ Быстрый Старт ([Quick Start](https://github.com/inpromotion/automa-russian-docs/blob/main/QUICK-START.md)
 - **Запись действий** (Recording Actions)
 - **Начать запись с определенного блока в рабочем процессе** (Start Recording From a Specific Block in Workflow)
 - **Создание рабочего процесса вручную** (Manually)
